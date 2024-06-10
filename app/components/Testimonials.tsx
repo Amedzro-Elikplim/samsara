@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Testimonials = () =>  {
     return (
       <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
@@ -11,7 +13,7 @@ const Testimonials = () =>  {
                 <footer>- Co-founder, Samsara Cleaning Services</footer>
             </blockquote>
             <figcaption className="mt-10">
-              <img
+              <Image
                 className="mx-auto h-10 w-10 rounded-full"
                 src="/cofounder.png"
                 alt="Co founder image"

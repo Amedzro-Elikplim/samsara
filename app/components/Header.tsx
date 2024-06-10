@@ -24,6 +24,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import { GiNotebook } from 'react-icons/gi'
+import Image from 'next/image'
 
 const products = [
   { name: 'Residential Cleaning', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
@@ -145,7 +146,7 @@ const Header = () =>  {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
+              <Image
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""

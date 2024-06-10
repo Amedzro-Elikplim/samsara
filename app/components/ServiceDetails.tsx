@@ -1,4 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
+import Image from 'next/image';
 import { FaPeopleCarry } from 'react-icons/fa';
 import { GiVacuumCleaner } from 'react-icons/gi';
 import { HiOfficeBuilding } from 'react-icons/hi';
@@ -47,7 +48,7 @@ const SectionDetails = () => {
           </div>
         </div>
         <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-          <img
+          <Image
             className="w-[48rem] max-w-none bg-gray-900 sm:w-[57rem]"
             src="/cleaner-broom.png"
             alt="cleaner-broom"

@@ -1,4 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image';
 const HeroSection = () => {
 
     return (
@@ -16,7 +17,7 @@ const HeroSection = () => {
                 <button className="bg-secondary-500 text-white text-white-500 lg:px-[170px] lg:py-[13px] px-[100px] py-[13px] my-10 rounded-lg">BOOK NOW</button>
               </div>
             </div>
-            <img
+            <Image
               src="/cleaner.png"
               alt="Product screenshot"
               className="w-[48rem] lg:w-[40rem] lg:h-[40rem]  max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0"
