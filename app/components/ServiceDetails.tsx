@@ -42,7 +42,7 @@ const SectionDetails = () => {
               <p className="text-base font-semibold leading-7 text-indigo-600">Check out our services</p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Keep your space clean</h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Cleaning is not just about tidying up our surroundings; it's a reflection of the care we extend to ourselves and others. A clean space fosters clarity of mind, a sense of calm, and a brighter outlook on life
+                Cleaning is not just about tidying up our surroundings; it&apos;s a reflection of the care we extend to ourselves and others. A clean space fosters clarity of mind, a sense of calm, and a brighter outlook on life
               </p>
             </div>
           </div>
@@ -52,6 +52,9 @@ const SectionDetails = () => {
             className="w-[48rem] max-w-none bg-gray-900 sm:w-[57rem]"
             src="/cleaner-broom.png"
             alt="cleaner-broom"
+            width={1000}
+            height={1000}
+
           />
         </div>
         <div className="lg:col-span-2 lg:-mt-[50px] lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -82,7 +85,7 @@ const SectionDetails = () => {
              <div className="flex gap-5 mt-[35px] justify-center items-center mr-[50px] w-[90%]">
                 <FaPeopleCarry className="text-6xl text-secondary-500" />
                 <p className="text-[20px] tracking-wide">
-                    <span className="font-bold text-xl">Move-In/Move-Out Cleaning:</span>  Moving can be stressful, but our move-in and move-out cleaning services make the process smoother. We'll leave your old or new place spotless, so you can focus on settling in or preparing for the next chapter.
+                    <span className="font-bold text-xl">Move-In/Move-Out Cleaning:</span>  Moving can be stressful, but our move-in and move-out cleaning services make the process smoother. We&apos;ll leave your old or new place spotless, so you can focus on settling in or preparing for the next chapter.
                 </p>
              </div>
 
